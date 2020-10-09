@@ -1,0 +1,58 @@
+
+h1 {
+    color:mediumaquamarine
+}
+
+*{
+    border: inset ;
+}
+.Header {
+    display: flex; /* or inline-flex */
+    background-color: rgb(111, 0, 255);
+    justify-content: space-between;
+    color: white;
+    font-size: 20px;
+    font-family: fantasy;
+    font-weight: 400;
+  }
+.Grid{
+    display: flex; /* or inline-flex */
+    flex-wrap: wrap;
+    border-radius: 20px;
+    font-family: fantasy;
+} 
+body {
+    color: rgb(72, 255, 0);
+    background-color: coral;
+}
+.Design{
+    border-radius: 20px;
+    background-color: white;
+    padding: 30px;
+    margin: 25px;
+    width: 500px;
+    font-family: fantasy;
+}
+a:link {
+    color: rgb(179, 0, 250);
+}
+a:visited{
+    color: rgb(179, 0, 250)
+}
+.Design p{
+    position: absolute;
+    top: 78%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+.Design:hover p{
+    opacity: 1;
+}
+.Design:hover img{
+    opacity: 33%;
+
+}
+.Info{
+    background-color: white;
+}
